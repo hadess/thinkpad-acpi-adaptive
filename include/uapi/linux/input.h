@@ -739,6 +739,16 @@ struct input_keymap_entry {
 #define KEY_BRIGHTNESS_MIN		0x250	/* Set Brightness to Minimum */
 #define KEY_BRIGHTNESS_MAX		0x251	/* Set Brightness to Maximum */
 
+#define KEY_CLIPPING_TOOL		0x252	/* Screenshot clipping tool */
+#define KEY_CLOUD			0x253	/* Cloud Settings */
+#define KEY_CAMERA_GESTURES		0x254	/* Toggle Camera gestures */
+#define KEY_NEW_TAB			0x255	/* Open a new tab */
+#define KEY_MICUP			0x256	/* Microphone Up */
+#define KEY_MICDOWN			0x257	/* Microphone Down */
+#define KEY_MICCANCEL_MODE		0x258	/* Toggle Microphone cancellation mode */
+#define KEY_CAMERA_ZOOM_MODE		0x259	/* Toggle camera zoom mode */
+#define KEY_ROTATE_DISPLAY		0x25a	/* Rotate screen by 90 degrees */
+
 #define KEY_KBDINPUTASSIST_PREV		0x260
 #define KEY_KBDINPUTASSIST_NEXT		0x261
 #define KEY_KBDINPUTASSIST_PREVGROUP		0x262
