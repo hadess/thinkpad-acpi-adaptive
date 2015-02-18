@@ -3264,24 +3264,24 @@ static int __init hotkey_init(struct ibm_init_struct *iibm)
 		 * We'll need to offset those by 0x20 */
 		KEY_RESERVED,        /* Mute held, 0x103 */
 		KEY_BRIGHTNESS_MIN,  /* Backlight off */
-		KEY_RESERVED,        /* Clipping tool */
-		KEY_RESERVED,        /* Cloud */
+		KEY_CLIPPING_TOOL,   /* Clipping tool */
+		KEY_CLOUD,           /* Cloud */
 		KEY_RESERVED,
 		KEY_VOICECOMMAND,    /* Voice */
 		KEY_RESERVED,
-		KEY_RESERVED,        /* Gestures */
+		KEY_CAMERA_GESTURES, /* Gestures */
 		KEY_RESERVED,
 		KEY_RESERVED,
 		KEY_RESERVED,
 		KEY_CONFIG,          /* Settings */
-		KEY_RESERVED,        /* New tab */
+		KEY_NEW_TAB,         /* New tab */
 		KEY_REFRESH,         /* Reload */
 		KEY_BACK,            /* Back */
-		KEY_RESERVED,        /* Microphone down */
-		KEY_RESERVED,        /* Microphone up */
-		KEY_RESERVED,        /* Microphone cancellation */
-		KEY_RESERVED,        /* Camera mode */
-		KEY_RESERVED,        /* Rotate display, 0x116 */
+		KEY_MICUP,           /* Microphone down */
+		KEY_MICDOWN,         /* Microphone up */
+		KEY_MICCANCEL_MODE,  /* Microphone cancellation */
+		KEY_CAMERA_ZOOM_MODE,/* Camera mode */
+		KEY_ROTATE_DISPLAY,  /* Rotate display, 0x116 */
 		},
 	};
 
